@@ -1,1 +1,20 @@
+Backend Setup
+The backend should handle authentication, invoice fetching, and triggering the Zapier automation.
+
+1. Set up a Node.js/Express Backend
+Initialize a new Node.js project
+
+# mkdir backend
+# cd backend
+# npm init -y
+# npm install express axios
+# npm install google-auth-library
+
+2. Implement Google OAuth Verification
+Create middleware to verify Google ID tokens:
+
+3. Set Up API Endpoints
+Create API endpoints for fetching invoices and triggering automation:
+
+4. Connect both frontend and backend
 
