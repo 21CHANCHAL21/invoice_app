@@ -22,7 +22,7 @@ GOOGLE_CLIENT_ID=177804601405-hdefp254umn564e3oms14plvu9ltsu6q.apps.googleuserco
 GOOGLE_CLIENT_SECRET=your_actual_google_client_secret
 ZAPIER_WEBHOOK_URL=https://hooks.zapier.com/hooks/catch/123456/abcdef
 SESSION_SECRET=your_actual_session_secret
-
+Note- replace all the required information with your information.
 
 5. Connect both frontend and backend
 
