@@ -3,6 +3,7 @@ The backend should handle authentication, invoice fetching, and triggering the Z
 
 1. Set up a Node.js/Express Backend
 Initialize a new Node.js project
+download all the required module
 
 # mkdir backend
 # cd backend
@@ -10,11 +11,18 @@ Initialize a new Node.js project
 # npm install express axios
 # npm install google-auth-library
 
-2. Implement Google OAuth Verification
+2. Implement Google OAuth Verification (replace the given code)
 Create middleware to verify Google ID tokens:
 
-3. Set Up API Endpoints
+3. Set Up API Endpoints 
 Create API endpoints for fetching invoices and triggering automation:
 
-4. Connect both frontend and backend
+4. add .env file which include-
+GOOGLE_CLIENT_ID=177804601405-hdefp254umn564e3oms14plvu9ltsu6q.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=your_actual_google_client_secret
+ZAPIER_WEBHOOK_URL=https://hooks.zapier.com/hooks/catch/123456/abcdef
+SESSION_SECRET=your_actual_session_secret
+
+
+5. Connect both frontend and backend
 
